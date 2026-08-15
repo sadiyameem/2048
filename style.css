@@ -17,6 +17,19 @@ hr {
     flex-wrap: wrap;
 }
 
+h2 {
+    background-color: #D1C6B9;
+    width: 90px;
+    height: 60px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
 .tile {
     width: 90px;
     height: 90px;
