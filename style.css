@@ -42,56 +42,56 @@ h2 {
 }
 
 .x2 {
-    background-color: #ea546b;
-    color: tan;
+    background-color: #86775F;
+    color: #ffb26b;
 }
 
 .x4 {
-    background-color: #bce754;
-    color: tan;
+    background-color: #FFCD9B;
+    color: #86775F;
 }
 
 .x8 {
-    background-color: #87ae24;
-    color: tan;
+    background-color: #ffcba4;
+    color: #86775F;
 }
 
 .x16 {
-    background-color: #e7da26;
-    color: tan;
+    background-color: #ffa089;
+    color: white;
 }
 
 .x32 {
-    background-color: #c0ffee;
-    color: tan;
+    background-color: #ff7f50;
+    color: white;
 }
 
 .x64 {
-    background-color: #FF608C;
-    color: tan;
+    background-color: #ff4500;
+    color: white;
 }
 
 .x128 {
-    background-color: #FFB300;
-    color: tan;
+    background-color: #fff44f;
+    color: #86775F;
 }
 
 .x256 {
-    background-color: #7A868D;
-    color: tan;
+    background-color: #efcc00;
+    color: #86775F;
 }
 
 .x512 {
-    background-color: #F1B142;
-    color: tan;
+    background-color: #eed202;
+    color: #86775F;
 }
 
 .x1024 {
-    background-color: #6E9A95;
-    color: tan;
+    background-color: #ffdf00;
+    color: #86775F;
 }
 
 .x2048 {
-    background-color: #E7B3B1;
-    color: tan;
+    background-color: #ffc40c;
+    color: white;
 }
