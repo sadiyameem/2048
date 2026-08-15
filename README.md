@@ -1,8 +1,7 @@
 # 2048
 
 # Description
-- This is a browser based game called 2048. The game uses a grid typically a 4x4 grid where the player matches up alike number tiles by using there arrow keys.
-- Each merge increases the score and the game ends when the player reaches 2048.
+- This is a browser based game called 2048. The game uses a grid typically a 4x4 grid where the player matches up alike number tiles by using there arrow keys. Each merge increases the score and the game ends when the player reaches 2048.
 
 # Features
 - Game board (4x4)
