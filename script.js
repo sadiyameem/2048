@@ -34,7 +34,7 @@ function updateTile(tile, num) {
     tile.classList.add("tile");
     if (num > 0) {
         tile.innerText = num.toString();
-        if (num <= 4096) {
+        if (num <= 2048) {
             tile.classList.add("x" + num.toString());
         } else {
             tile.classList.add("x2048");
@@ -45,18 +45,22 @@ function updateTile(tile, num) {
 document.addEventListener('keyup', (e) => {
     if (e.code === "ArrowLeft") {
         slideLeft();
+        if (checkWin()) return;
         setTwo();
     }
     else if (e.code == "ArrowRight") {
         slideRight();
+        if (checkWin()) return;
         setTwo();
     }
     else if (e.code == "ArrowUp") {
         slideUp();
+        if (checkWin()) return;
         setTwo();
     }
     else if (e.code == "ArrowDown") {
         slideDown();
+        if (checkWin()) return;
         setTwo();
     }
     document.getElementById("score").innerText = score;
@@ -160,6 +164,18 @@ function hasEmptyTile() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             if (board[r][c] == 0) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+function checkWin() {
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < columns; c++) {
+            if (board[r][c] == 2048) {
+                alert("You reached 2048! You Win!");
                 return true;
             }
         }
