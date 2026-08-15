@@ -171,14 +171,14 @@ function hasEmptyTile() {
     return false;
 }
 
-function checkWin() {
-    for (let r = 0; r < rows; r++) {
-        for (let c = 0; c < columns; c++) {
-            if (board[r][c] == 2048) {
-                alert("You reached 2048! You Win!");
-                return true;
-            }
-        }
-    }
-    return false;
-}
+// function checkWin() {
+//     for (let r = 0; r < rows; r++) {
+//         for (let c = 0; c < columns; c++) {
+//             if (board[r][c] == 2048) {
+//                 alert("You reached 2048! You Win!");
+//                 return true;
+//             }
+//         }
+//     }
+//     return false;
+// }
